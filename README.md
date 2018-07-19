@@ -29,6 +29,6 @@ end
 
 In this example, `house_attrs` holds our fixture. The fixture is a hash of data, and serves to prepare for a consistent initialization of a `House`.
 
-A fixture can be as small as a single character, although there would not be much use for that. It can also be as large as you want it. A common use case for fixtures are to "stub" out responses from third party services, like an HTTP response from a Google query (code be 100s of lines). When fixtures get particularly large, they are sometimes moved to test helper files, to not distract one from the purpose of a particular set of tests.
+A fixture can be as small as a single character, although there would not be much use for that. It can also be as large as you want it. A common use case for fixtures are to "stub" out responses from third party services, like an HTTP response from a Google query, which could amount to hundreds of lines of code. When fixtures get particularly large, they are sometimes moved to test helper files, to not distract from the purpose of a particular set of tests.
 
-One crucial detail to remember about fixtures is that they are not dynamic, but represent "fixed" state.
+One crucial detail to remember about fixtures is that they are not dynamic, but represent a "fixed" state.
